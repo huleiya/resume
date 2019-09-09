@@ -43,12 +43,12 @@ new Vue({
 			    content: '在GitHub上克隆了一个自然语言处理项目，根据训练好的模型判读一段文字描述内容所属的专业领域，调整训练参数（江湖人称“炼丹术”）使模型泛化能力更强，更好的适用于整个样本空间。用matplotlib第三方库使判断结果可视化。'
 			},
             One: {
-                name: '人事管理系统',
-                content: '使用 HTML、CSS、JavaScript完成页面基本布局,使用 java 进行后端开发，数据库使用 MySQL。'
+                name: '外星人入侵',
+                content: '使用 pygame 开发一款简单的 2D 射击游戏，玩家通过操纵飞船射击外星人得分，外星人碰到飞船或到达界面底部，游戏结束。'
             },
             Two: {
                 name: '基于SpringBoot的短视频微信小程序',
-                content: '使用 WXML、WXSS、JavaScript完成页面基本布局，使用 SpringBoot 框架进行后端开发，数据库使用 MySQL。用FFmpeg工具做视音频合成处理，用Redis、ZooKeeper等中间件进行服务器间通信'
+                content: '使用 WXML、WXSS、JavaScript完成页面基本布局，使用 SpringBoot 框架进行后端开发，数据库使用 MySQL。用FFmpeg工具做视音频合成处理，用Redis、ZooKeeper等中间件进行服务器间通信。'
 
             },
             // Three: {
@@ -66,12 +66,12 @@ new Vue({
         // 技能介绍
         skills: '技能',
         skillItems: [
+			{
+			    skill: 'Python、Java'
+			},
             {
                 skill: 'HTML、CSS、JavaScript'
-            },
-            {
-                skill: 'Python、Java'
-            },
+            },       
             {
                 skill: '熟悉 MarkDown 语法，了解 SpringBoot、Django等框架'
             },
