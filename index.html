@@ -35,9 +35,9 @@
 							<article>
 								<h2>{{education.name}}</h2>
 								<h3>{{education.time}}</h3>
-								<ul>
+								<!-- <ul>
 									<li>{{education.content}}</li>
-								</ul>
+								</ul> -->
 							</article>
 						</div>
 					</div>
@@ -70,8 +70,8 @@
 								<article>
 									<h2>{{project.name}}</h2>
 									<!-- <p>{{project.content}}</p> -->
-									<ul>
-										<li>{{project.content}}</li>
+									<ul  v-for="content in project.contents">
+											<li class="projectData">{{content}}</li>
 									</ul>
 								</article>
 							</div>
